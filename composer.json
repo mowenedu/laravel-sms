@@ -1,17 +1,17 @@
 {
-    "name": "toplan/laravel-sms",
-    "description": "A mobile phone number validation solution based on laravel",
+    "name": "xingbei/x_laravel-sms",
+    "description": "A mobile phone number validation solution based on laravel fork form toplan/laravel-sms",
     "license": "MIT",
     "keywords": ["sms", "mobile", "phone", "laravel", "laravel-sms"],
     "authors": [
         {
-            "name": "toplan",
-            "email": "toplan710@gmail.com"
+            "name": "xingbei437",
+            "email": "xingbei437@163.com"
         }
     ],
     "require": {
-        "php": ">=5.4.0",
-        "toplan/phpsms": "~1.8"
+        "php": "^7.2",
+        "xingbei437/x_phpsms": "~1.8"
     },
     "autoload": {
         "classmap": [
