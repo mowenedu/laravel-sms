@@ -858,8 +858,6 @@ class SmsManager
         if (array_key_exists($name, $messages)) {
             return $messages["$name"];
         }
-
-        return $name;
     }
 
     /**
@@ -893,7 +891,8 @@ class SmsManager
             $data = $message;
             $message = '';
         }
-        $message = $message ?: self::getNotifyMessage($type);
+        // 优先自定义，其次系统信息，再次错误类型
+        $message = self::getNotifyMessage($type) ?? $message ?? $type; 
         $result['message'] = Util::vsprintf($message, $data);
 
         return $result;
