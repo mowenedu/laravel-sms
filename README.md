@@ -10,6 +10,14 @@
 - require PHP 7.2
 - optimize
 
+# 安装
+
+在项目根目录下运行如下composer命令:
+```php
+composer require xingbei437/x_laravel-sms:~2.6
+
+```
+
 [Usage - Jump to author](https://github.com/toplan/laravel-sms/blob/master/README.md)
 
 # License
