@@ -10,7 +10,7 @@
 - require PHP 7.2
 - optimize
 
-[Usage] (https://github.com/toplan/laravel-sms/blob/master/README.md)
+[Usage - Jump to author](https://github.com/toplan/laravel-sms/blob/master/README.md)
 
 # License
 
