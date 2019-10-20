@@ -1,5 +1,5 @@
 {
-    "name": "xingbei/x_laravel-sms",
+    "name": "xingbei437/x_laravel-sms",
     "description": "A mobile phone number validation solution based on laravel fork form toplan/laravel-sms",
     "license": "MIT",
     "keywords": ["sms", "mobile", "phone", "laravel", "laravel-sms"],
