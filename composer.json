@@ -20,5 +20,11 @@
         "psr-0": {
             "Toplan\\Sms": "src/"
         }
-    }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/mowenedu/laravel-sms.git"
+        }
+    ]
 }
