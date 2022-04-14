@@ -1,17 +1,17 @@
 {
-    "name": "xingbei437/x_laravel-sms",
-    "description": "A mobile phone number validation solution based on laravel fork form toplan/laravel-sms",
+    "name": "mowenedu/x_laravel-sms",
+    "description": "A mobile phone number validation solution based on laravel fork form xingbei437/laravel-sms",
     "license": "MIT",
     "keywords": ["sms", "mobile", "phone", "laravel", "laravel-sms"],
     "authors": [
         {
-            "name": "xingbei437",
-            "email": "xingbei437@163.com"
+            "name": "mowenedu",
+            "email": "2314601153@qq.com"
         }
     ],
     "require": {
         "php": "^7.2",
-        "xingbei437/x_phpsms": "~1.8"
+        "mowenedu/x_phpsms": "dev-master"
     },
     "autoload": {
         "classmap": [
@@ -24,7 +24,11 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/mowenedu/laravel-sms.git"
+            "url": "https://github.com/mowenedu/phpsms.git"
+        },
+        {
+          "type": "vcs",
+          "url": "https://github.com/mowenedu/task-balancer.git"
         }
     ]
 }
